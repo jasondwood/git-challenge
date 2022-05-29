@@ -49,3 +49,7 @@ if (mark > john) {
 } else {
   console.log('John Higher');
 }
+
+
+console.log('Mark\'s BMI is ' + mark)
+console.log('John\'s BMI is ' + john)
