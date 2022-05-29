@@ -25,7 +25,12 @@ let johnMass1 = 92;
 let markHeight1 = 1.95;
 let johnHeight1 = 1.68;
 
+let markBMI = markMass1 / (markHeight1 ** 2);
+let johnBMI = johnMass1 / (johnHeight1 * johnHeight1);
 
+console.log(markBMI.toFixed(2), johnBMI.toFixed(2))
+
+/*
 function markBMI(mass, height) {
     let BMI = mass / (height * height);
     return BMI;
@@ -43,13 +48,16 @@ let john = johnBMI(92,1.68).toFixed(2)
 
 
 if (mark > john) {
-    console.log('Mark higher');
+    console.log('Mark\'s BMI is higher than John\'s');
 } else if (mark == john) {
-          console.log('Same BMI');
+          console.log('Mark and John have the same BMI');
 } else {
-  console.log('John Higher');
+  console.log('John\'s BMI is higher than Mark\'s');
 }
+*/
 
-
+/* 
 console.log('Mark\'s BMI is ' + mark)
 console.log('John\'s BMI is ' + john)
+
+*/
