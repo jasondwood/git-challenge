@@ -26,5 +26,8 @@ let markHeight1 = 1.95;
 let johnHeight1 = 1.68;
 
 
-
+function markBMI(mass, height) {
+    let BMI = mass / (height * height);
+    return BMI;
+  }
 
