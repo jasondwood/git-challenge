@@ -31,3 +31,21 @@ function markBMI(mass, height) {
     return BMI;
   }
 
+  
+function johnBMI(mass, height) {
+    let BMI = mass / (height * height)
+    return BMI;
+  }
+
+
+let mark = markBMI(78,1.95).toFixed(2)
+let john = johnBMI(92,1.68).toFixed(2)
+
+
+if (mark > john) {
+    console.log('Mark higher');
+} else if (mark == john) {
+          console.log('Same BMI');
+} else {
+  console.log('John Higher');
+}
